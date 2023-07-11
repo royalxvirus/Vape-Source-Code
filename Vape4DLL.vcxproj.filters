@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\java">
+      <UniqueIdentifier>{0e2b6de6-4234-4d32-9dcb-915c43fb9436}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\java">
+      <UniqueIdentifier>{3b9035a1-de37-4671-88a6-d4652842bfd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\java\util">
+      <UniqueIdentifier>{cc52ccd7-20e3-4b93-a52f-0f0dccaf5619}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\java\util">
+      <UniqueIdentifier>{354de12b-8707-49a0-96f3-1ba77c657e59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\json">
+      <UniqueIdentifier>{b6c15f3c-3e8b-4114-b5e7-81022b5f7d56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\discord">
+      <UniqueIdentifier>{4a829d64-36e2-447d-aec7-3e0d6bf70d73}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\java\a_class.cpp">
+      <Filter>Source Files\java</Filter>
+    </ClCompile>
+    <ClCompile Include="src\java\b_class.cpp">
+      <Filter>Source Files\java</Filter>
+    </ClCompile>
+    <ClCompile Include="src\java\util\j_util.cpp">
+      <Filter>Source Files\java\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\font.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\dllmain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\java\a_class.h">
+      <Filter>Header Files\java</Filter>
+    </ClInclude>
+    <ClInclude Include="src\java\b_class.h">
+      <Filter>Header Files\java</Filter>
+    </ClInclude>
+    <ClInclude Include="src\java\util\j_util.h">
+      <Filter>Header Files\java\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\json\json.h">
+      <Filter>Header Files\json</Filter>
+    </ClInclude>
+    <ClInclude Include="src\discord\discord.h">
+      <Filter>Header Files\discord</Filter>
+    </ClInclude>
+    <ClInclude Include="src\java\java_class.h">
+      <Filter>Header Files\java</Filter>
+    </ClInclude>
+    <ClInclude Include="src\socket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
